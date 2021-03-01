@@ -1,0 +1,13 @@
+@import './element-ui.scss';
+@import './sidebar.scss';
+
+html,
+body,
+#app,
+.app-wrapper {
+  height: 100%;
+}
+
+.app-wrapper {
+  background-color: #eee;
+}

@@ -1,0 +1,34 @@
+.el-menu {
+  border-right: 0;
+}
+
+.sidebar-container {
+  position        : fixed;
+  left            : 0;
+  top             : 0;
+  width           : 220px;
+  height          : 100%;
+  background-color: #ccc;
+
+  &--collapse {
+    width: 64px;
+  }
+
+  .el-scrollbar {
+    height: 100%;
+
+    &__wrap {
+      overflow-x: hidden;
+    }
+  }
+}
+
+// 这是因为我们套了一层div
+/*折叠 sidebar 后隐藏文字 */
+.el-menu--collapse .el-submenu__title span {
+  display: none;
+}
+
+.el-menu--collapse .el-submenu__title .el-submenu__icon-arrow {
+  display: none;
+}
