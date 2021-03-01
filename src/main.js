@@ -16,9 +16,9 @@ import './permission';
 import '@/assets/css/reset.css';   // reset css, use normalize.css
 import '@/styles/index.scss';    // 重新命名 index.css,放置在src/styles/index.css 全局的一些样式
 
-// excel
-import JsonExcel from "vue-json-excel";
-Vue.component("downloadExcel", JsonExcel);
+// excel, 导出为表格
+// import JsonExcel from "vue-json-excel";
+// Vue.component("downloadExcel", JsonExcel);
 
 
 // Vue.use 放一起

@@ -24,9 +24,6 @@
       >
       </el-table-column>
     </el-table>
-    <download-excel :data="tableData">
-      <el-button type="success">download-excel</el-button>
-    </download-excel>
   </div>
 </template>
 <script>
